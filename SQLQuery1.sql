@@ -1,7 +1,4 @@
-CREATE DATABASE InstagramAnalysis;
-GO
-USE InstagramAnalysis;
-GO
+
 CREATE DATABASE InstagramAnalytics;
 GO
 USE InstagramAnalytics;
@@ -102,4 +99,5 @@ GROUP BY u.username
 ORDER BY total_comments DESC;
 SELECT * FROM users;
 SELECT * FROM posts;
+SELECT * FROM followers;
 SELECT * FROM likes;
